@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "lib": ["es2020"],
+    "target": "es2022",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "paths": {
+      "#/*": ["./src/*"],
+      "@routes": ["./src/routes/index.js"]
+    }
+  },
+  "include": ["src"]
+}

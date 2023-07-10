@@ -1,0 +1,14 @@
+node_modules
+
+dist
+
+**/database/migrations
+**/database/schema.prisma
+
+.env*
+!.env.example
+
+*.md
+*.json
+
+*.tsbuildinfo

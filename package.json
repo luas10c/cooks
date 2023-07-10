@@ -1,0 +1,22 @@
+{
+  "name": "cooks",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "generate": "turbo run generate",
+    "type-checking": "turbo run type-checking",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "turbo": "^1.10.7"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "license": "UNLICENSED"
+}
